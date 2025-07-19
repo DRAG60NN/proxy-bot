@@ -13,7 +13,7 @@ bot.start((ctx) => {
         {
           text: "Открыть WebApp",
           web_app: {
-            url: "https://drag60nn.github.io/fetch.html"
+            url: `https://drag60nn.github.io/fetch.html?startapp=${encodeURIComponent(code)}`
           }
         }
       ]]
